@@ -79,6 +79,7 @@ body {
 
 .box {
   z-index: 1;
+  width: 400px;
 }
 
 .header {
