@@ -7,4 +7,12 @@
 2. Apple Watches
    * [Figma Design](https://www.figma.com/file/oqOJWgwVM3cULzmTyB9ogV/Apple-Watch)
    * [Source code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/AppleWatches)
-   * [Demo live](https://apple-watches-ss.netlify.app/)
+   * [Live Demo](https://apple-watches-ss.netlify.app/)
+3. Articles
+   * [Figma Design](https://www.figma.com/file/6WfHS48MXkIC4zXW38ru2w/Articles)
+   * [Source code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/Articles)
+   * [Live Demo]()
+4. SS
+   * [Figma Design]()
+   * [Source code]()
+   * [Live Demo]()
