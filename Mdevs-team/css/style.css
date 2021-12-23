@@ -1,0 +1,150 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MAIN CONTENT */
+
+.main-content {
+    flex-grow: 1;
+    background-color: #799BCE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 60px;
+    letter-spacing: 3px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+.cards {
+    width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.card {
+    margin: 25px;
+    padding: 15px;
+    width: 33.33%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.card h1 {
+    color: #4366D2;
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    line-height: 45px;
+    font-family: "Titillium Web", sans-serif;
+}
+
+.card > h3 {
+    text-transform: capitalize;
+    color: #484848;
+    letter-spacing: 3px;
+    font-size: 1.3rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 10px;
+    }
+    .cards {
+        width: 90%;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+        padding-top: 20px;
+    }
+    .card {
+        margin: 0;
+        padding: 20px 15px;
+        width: 100%;
+        border-radius: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card img {
+        width: 140px;
+        border-radius: 50%;
+        margin: 0 auto;
+    }
+    .card h1 {
+        color: #4366D2;
+        letter-spacing: 5px;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: 45px;
+        font-family: "Titillium Web", sans-serif;
+    }
+    .card > h3 {
+        text-transform: capitalize;
+        color: #484848;
+        letter-spacing: 3px;
+        font-size: 1.3rem;
+        font-family: "Josefin Sans", sans-serif;
+    }
+}

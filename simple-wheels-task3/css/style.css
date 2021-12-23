@@ -1,0 +1,125 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* CONTAINER */
+
+.container {
+    max-width: 1260px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MAIN CONTENT */
+
+.main-content {
+    flex-grow: 1;
+    background-color: #16A085;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 700px;
+    height: 500px;
+    padding: 30px 60px;
+    border-radius: 7px;
+    background-color: #fff;
+    background-image: url(../images/bicycle.png);
+    background-position: center bottom -170px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.card .card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card .card-header h2 {
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.card .card-header img {
+    border: 1px solid #AAB1B8;
+    border-radius: 50%;
+    padding: 8px;
+    width: 45px;
+    height: 45px;
+}
+
+.card .card-header img:hover {
+    box-shadow: 0 0 10px #AAB1B8;
+}
+
+.card p {
+    color: #AAB1B8;
+    margin: 15px 0 0;
+    font-size: 17px;
+}
+
+.card ul {
+    margin-top: 40px;
+}
+
+.card ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 500;
+    color: #5E646E;
+}
+
+.card ul li span {
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.card ul li:not(:last-child) {
+    margin-bottom: 30px;
+}
+
+
+.card ul li h2 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
