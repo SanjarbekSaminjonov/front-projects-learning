@@ -34,6 +34,9 @@
    * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/ModalProject)
    * [Live Demo](https://modal-js-ss.netlify.app/)
 10. Namanganliklar 24
-       * [Figma Design](https://www.figma.com/file/1ohQSjkfnE32EAPZzOlC26/Namanganliklar24)
-       * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/Namanganliklar24)
-       * [Live Demo](https://namanganliklar-24-ss.netlify.app/)
+    * [Figma Design](https://www.figma.com/file/1ohQSjkfnE32EAPZzOlC26/Namanganliklar24)
+    * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/Namanganliklar24)
+    * [Live Demo](https://namanganliklar-24-ss.netlify.app/)
+11. Listen Keys
+    * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/ListenKeys)
+    * [Live Demo](https://listen-keys-ss.netlify.app/)
