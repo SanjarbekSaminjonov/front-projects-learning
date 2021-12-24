@@ -1,0 +1,93 @@
+/* GLOBAL */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #115588;
+    font-family: sans-serif;
+}
+
+/* MAIN CONTENT */
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    color: #111;
+}
+
+.startView {
+    width: 600px;
+    height: 150px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.nextView {
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 24px;
+}
+
+.box-title {
+    color: #fff;
+}
+
+.little-box {
+    margin-top: 30px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+.e-key::before {
+    content: "Event Key";
+}
+
+.e-key-code::before {
+    content: "Event Key Code";
+}
+
+.e-code::before {
+    content: "Event Code";
+}
+
+.e-key::before,
+.e-key-code::before,
+.e-code::before {
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: -40px;
+}
+
+
+.hidden {
+    display: none;
+}
