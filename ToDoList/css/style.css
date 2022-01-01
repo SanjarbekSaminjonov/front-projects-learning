@@ -1,121 +1,166 @@
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
-    height: 100%;
+  height: 100%;
 }
 
 body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    background-color: #07C7A4;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #07c7a4;
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .container {
-    max-width: 800px;
-    width: 100%;
-    padding: 0 30px;
-    margin: 0 auto;
+  max-width: 800px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
 }
 
 .main-content {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .input-group {
-    margin-top: 50px;
-    text-align: center;
-    padding: 30px 50px;
-    background-color: #fff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 50px;
+  text-align: center;
+  padding: 30px 50px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .input-group h1 {
-    margin: 0;
-    font-size: 25px;
-    line-height: 34px;
-    color: #07C7A4;
-    letter-spacing: 2px;
+  margin: 0;
+  font-size: 25px;
+  line-height: 34px;
+  color: #07c7a4;
+  letter-spacing: 2px;
 }
 
 .add-form {
-    margin-top: 30px;
-    position: relative;
+  margin-top: 30px;
+  position: relative;
 }
 
 .add-form input {
-    max-width: 700px;
-    width: 100%;
-    margin: 0;
-    color: #018b72;
-    border-radius: 7px;
-    border: 1px solid #07C7A4;
-    font-size: 20px;
-    padding: 10px 160px 10px 20px;
-    background-color: #F2F2F2;
-    outline: none;
-    letter-spacing: 2px;
-    font-family: inherit;
+  max-width: 700px;
+  width: 100%;
+  margin: 0;
+  color: #018b72;
+  border-radius: 7px;
+  border: 1px solid #07c7a4;
+  font-size: 20px;
+  padding: 10px 160px 10px 20px;
+  background-color: #f2f2f2;
+  outline: none;
+  letter-spacing: 2px;
+  font-family: inherit;
 }
 
 .add-form input:focus {
-    outline: 2px solid #07C7A4;
+  outline: 2px solid #07c7a4;
 }
 
 .add-form button {
-    max-width: 150px;
-    width: 100%;
-    font-size: 20px;
-    font-family: inherit;
-    letter-spacing: 2px;
-    background-color: #07C7A4;
-    color: #fff;
-    border: 1px solid #07C7A4;
-    border-radius: 0 7px 7px 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
+  max-width: 150px;
+  width: 100%;
+  font-size: 20px;
+  font-family: inherit;
+  letter-spacing: 2px;
+  background-color: #07c7a4;
+  color: #fff;
+  border: 1px solid #07c7a4;
+  border-radius: 0 7px 7px 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
 }
 
-
 .todo-list {
-    margin-top: 45px;
-    background-color: #fff;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
-    padding: 30px 100px;
-    overflow-y: scroll;
-    height: 450px;
+  margin-top: 45px;
+  background-color: #fff;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  padding: 30px 100px;
+  overflow-y: scroll;
+  height: 450px;
 }
 
 .todo-item {
-    padding: 10px 30px;
-    border: 1px solid #07C7A4;
-    border-radius: 7px;
-    font-size: 18px;
-    color: #07C7A4;
+  padding: 10px 30px;
+  border: 1px solid #07c7a4;
+  border-radius: 7px;
+  font-size: 18px;
+  color: #07c7a4;
 }
 
 .todo-item:not(:last-child) {
-    margin-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .done {
-    text-decoration-line: line-through;
-    opacity: 0.7;
-    background-color: silver;
-    color: #333;
+  text-decoration-line: line-through;
+  opacity: 0.7;
+  background-color: silver;
+  color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  .input-group {
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  }
+
+  .input-group h1 {
+    font-size: 18px;
+  }
+
+  .add-form {
+    margin-top: 8px;
+  }
+
+  .add-form input {
+    font-size: 18px;
+    padding: 5px 85px 5px 10px;
+    letter-spacing: normal;
+  }
+
+  .add-form button {
+    max-width: 80px;
+    font-size: 18px;
+    letter-spacing: normal;
+  }
+
+  .todo-list {
+    margin-top: 15px;
+    padding: 20px 20px;
+    overflow-y: scroll;
+    height: 450px;
+  }
+
+  .todo-item {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .todo-item:not(:last-child) {
+    margin-bottom: 12px;
+  }
 }
