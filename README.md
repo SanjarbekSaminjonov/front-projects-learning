@@ -43,3 +43,5 @@
 12. To Do List
     * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/ToDoList)
     * [Live Demo](https://todolist-ss.netlify.app/)
+
+By Sanjarbek Saminjonov (2021-2022)
