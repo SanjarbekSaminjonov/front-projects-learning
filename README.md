@@ -40,3 +40,6 @@
 11. Listen Keys
     * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/ListenKeys)
     * [Live Demo](https://listen-keys-ss.netlify.app/)
+12. To Do List
+    * [Source Code](https://github.com/SanjarbekSaminjonov/FrontEndProjects/tree/master/ToDoList)
+    * [Live Demo](https://todolist-ss.netlify.app/)
